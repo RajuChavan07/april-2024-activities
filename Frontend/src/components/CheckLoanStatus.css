@@ -1,0 +1,33 @@
+.loan-status-container {
+    padding: 20px;  /* Add padding around the content */
+    border: 1px solid #ccc;  /* Border for visual structure */
+    border-radius: 8px;  /* Rounded corners */
+    background: #f9f9f9;  /* Light background */
+    max-width: 600px;  /* Limit the maximum width */
+    margin: 20px auto;  /* Center the content */
+  }
+  
+  .loading {
+    text-align: center;  /* Center the loading message */
+    font-size: 18px;  /* Larger font for emphasis */
+  }
+  
+  .error {
+    text-align: center;
+    color: red;  /* Red color for error messages */
+  }
+  
+  .application-list {
+    list-style-type: none;  /* No bullet points for the list */
+    padding: 0;  /* Remove default padding */
+  }
+  
+  .application-item {
+    padding: 10px;  /* Add padding to list items */
+    border-bottom: 1px solid #ccc;  /* Divider between items */
+  }
+  
+  .application-item:last-child {
+    border-bottom: none;  /* Remove bottom border from last item */
+  }
+  

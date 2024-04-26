@@ -1,0 +1,64 @@
+.apply-button {
+    background-color: #007bff;  
+    color: white;
+    padding: 5px 10px;  
+    font-size: 14px;  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;  
+  }
+
+  
+.view-loans-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .loan-list {
+    list-style-type: none;  
+    padding: 0;  
+  }
+  
+  .loan-item {
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 10px;
+    border-bottom: 1px solid #ccc;  
+  }
+  
+  .loan-item:last-child {
+    border-bottom: none;  
+  }
+  
+  .apply-button {
+    background-color: #007bff;  
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;  
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;  
+  }
+  
+  .error {
+    text-align: center;
+    color: red;  
+  }
+  

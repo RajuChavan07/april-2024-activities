@@ -1,0 +1,23 @@
+/* src/components/Registration.css */
+.registration-wrapper {
+    max-width: 50%;  
+    margin: 0 auto;  
+    padding: 20px;  
+    background: #9cd2f8;  
+    border: 1px solid #ddd;  
+    border-radius: 8px;  
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form .form-control {
+    border-radius: 5px;  
+  }
+  
+  .registration-form .btn {
+    align-self: flex-end;  
+  }
+  
